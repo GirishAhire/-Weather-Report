@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>🌦️ Weather Report</h1>
+            <div>
+                <input type="text" placeholder="Enter City Name" id="city_name">
+                <input type="button" value="Check" id="check_btn">
+            </div>
+
+            <div>
+                <span class="radio_Buttons">
+                    <input type="radio" id="celsius_unit"  name="radio" />
+                    <label for="celsius_unit">Celsius</label>
+                </span>
+
+                <span class="radio_Buttons">
+                    <input type="radio" id="farenheit_unit" name="radio"/>
+                    <label for="farenheit_unit">Farenheit</label>
+                </span>
+            </div>
+        </div>
+        
+        <div id="result" class="container_result">
+            <div>
+                <h2 id="display_city_country">City, Countary</h2>
+            </div>
+
+            <div>
+                <p id="temperature"></p> 
+            </div>
+
+            <div>
+                <p id="description"></p> 
+            </div>
+
+            <div>
+                <div id="icon"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script rel="text/javascript" src="script.js"></script>
+</body>
+</html> 

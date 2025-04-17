@@ -1,0 +1,59 @@
+body{
+    background-color: #212121;
+    color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    position:relative;
+    top: 15vh;
+}
+
+h1{
+    margin:1%;
+}
+
+#city_name{
+
+    height:6vh;
+    width: 14%;
+    margin:1.5%;
+	border-radius:16px;
+    border: none;
+    text-align: center;
+	color:#212121;
+	font-size:large;
+	font-weight:bold;
+}
+
+#check_btn{
+
+    height: 5vh;
+    width: 6%;
+	background-color:#212121;
+	border-radius:18px;
+	border:2px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:medium;
+}
+
+
+.radio_Buttons{
+    
+    margin-right: 1%;
+}
+
+
+.container_result{
+    position:absolute;
+    left: 37.5%;
+    margin-top: 2%;
+    height: 39vh;
+    width: 26%;
+    padding: 0.5%;
+    border-radius:20px;
+    background-color: #302f2f6a;
+    visibility: hidden;  
+
+}
+
